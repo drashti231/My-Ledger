@@ -1,22 +1,25 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# MyLedger 📱
 
-# Run and deploy your AI Studio app
+MyLedger is an Android application designed to make personal finance management and transaction tracking simpler and more intuitive. **I built this app myself as a personal project for learning purposes.**
 
-This contains everything you need to run your app locally.
+## ✨ Key Features
+- **Transaction Tracking:** Easily log and manage your daily expenses and income.
+- **Smart Reminders:** Never miss a payment or important financial task with built-in reminders.
+- **Modern UI:** A clean, responsive, and beautiful user interface built with Jetpack Compose.
+- **Secure & Fast:** Built for performance and reliability with Room local data storage.
 
-View your app in AI Studio: https://ai.studio/apps/d4c09d85-cbd4-4570-99f6-eb65c16a07fd
+## 🛠 Tech Stack
+- **Language:** Kotlin
+- **UI Toolkit:** Jetpack Compose
+- **Database:** Room (Local Storage)
+- **Architecture:** MVVM (Model-View-ViewModel)
+- **Concurrency:** Kotlin Coroutines
 
-## Run Locally
+## 🚀 How to Run Locally
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+**Prerequisites:** [Android Studio](https://developer.android.com/studio)
 
-
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
-7. If you have already published your app in AI Studio, please [request upload key reset](https://support.google.com/googleplay/android-developer/answer/9842756#zippy=%2Crequest-an-upload-key-reset) in Google Play Console.
+1. Open Android Studio.
+2. Select **Open** and choose the directory containing this project (`My-Ledger`).
+3. Allow Android Studio to sync and download the required Gradle dependencies.
+4. Run the app on an Android emulator or a physical device.
