@@ -15,11 +15,4 @@ MyLedger is an Android application designed to make personal finance management 
 - **Architecture:** MVVM (Model-View-ViewModel)
 - **Concurrency:** Kotlin Coroutines
 
-## 🚀 How to Run Locally
 
-**Prerequisites:** [Android Studio](https://developer.android.com/studio)
-
-1. Open Android Studio.
-2. Select **Open** and choose the directory containing this project (`My-Ledger`).
-3. Allow Android Studio to sync and download the required Gradle dependencies.
-4. Run the app on an Android emulator or a physical device.
