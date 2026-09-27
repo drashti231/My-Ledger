@@ -1,0 +1,50 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Ledger Book Base -->
+    <path
+        android:fillColor="#6C4FF5"
+        android:pathData="M30,26 C30,24 32,22 34,22 L74,22 C77,22 80,25 80,28 L80,78 C80,81 77,84 74,84 L34,84 C32,84 30,82 30,80 Z" />
+    <!-- Ledger Spine & Border Accent -->
+    <path
+        android:fillColor="#4F38CA"
+        android:pathData="M30,26 C30,24 32,22 34,22 L38,22 L38,84 L34,84 C32,84 30,82 30,80 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M43,30 L72,30 C73,30 74,31 74,32 C74,33 73,34 72,34 L43,34 C42,34 41,33 41,32 C41,31 42,30 43,30 Z" />
+    <!-- Bar 1 (Expenses/Low) -->
+    <path
+        android:fillColor="#93C5FD"
+        android:pathData="M44,68 L50,68 C51,68 52,67 52,66 L52,56 C52,55 51,54 50,54 L44,54 C43,54 42,55 42,56 L42,66 C42,67 43,68 44,68 Z" />
+    <!-- Bar 2 (Medium) -->
+    <path
+        android:fillColor="#818CF8"
+        android:pathData="M54,68 L60,68 C61,68 62,67 62,66 L62,48 C62,47 61,46 60,46 L54,46 C53,46 52,47 52,48 L52,66 C52,67 53,68 54,68 Z" />
+    <!-- Bar 3 (High Income Growth) -->
+    <path
+        android:fillColor="#22C55E"
+        android:pathData="M64,68 L70,68 C71,68 72,67 72,66 L72,40 C72,39 71,38 70,38 L64,38 C63,38 62,39 62,40 L62,66 C62,67 63,68 64,68 Z" />
+    <!-- Upward Trend Line Arrow -->
+    <path
+        android:fillColor="#22C55E"
+        android:strokeColor="#22C55E"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M45,52 L56,44 L68,36" />
+    <path
+        android:fillColor="#22C55E"
+        android:pathData="M65,34 L72,35 L70,42 Z" />
+    <!-- Coin/Badge in Top Right -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M78,32 C82.4,32 86,28.4 86,24 C86,19.6 82.4,16 78,16 C73.6,16 70,19.6 70,24 C70,28.4 73.6,32 78,32 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M78,19 L78,29 M75.5,21.5 C75.5,21.5 76.5,20 78,20 C79.5,20 80.5,21 80.5,22 C80.5,23.5 77,24 77,25.5 C77,27 78.5,27.5 80,27.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round" />
+</vector>

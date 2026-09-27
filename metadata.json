@@ -1,0 +1,6 @@
+{
+  "name": "MyLedger",
+  "description": "Manage your money. Run your business. Smart business ledger, invoicing, transactions, reports, and customer management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
